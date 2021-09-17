@@ -10,7 +10,7 @@ Code coming soon.
 
 3. [BART Model](https://huggingface.co/models) (via [Transformers](https://huggingface.co/transformers/))
 
-**Note:** Note: we noticed that Hugging Face updated the configuration file, all dropout (e.g. activation_dropout and etc.) in the previous version we used for the experiment were 0.0. To reproduce the experiment in the paper, you should change this setting.
+**Note:** Note: we noticed that Hugging Face updated the configuration file, activation_dropout and attention_dropout in the previous version we used for the experiment were 0.0. To reproduce the experiment in the paper, you should change this setting.
 
 
 ## Dependencies
@@ -96,7 +96,7 @@ The outputs of our best systems are provided in outputs.
 
 
 ## Cite
-If you use this code, please cite our paper:
+Please cite our EMNLP paper:
 ```
 @article{lai2021generic,
     title={Generic resources are what you need: Style transfer tasks without task-specific parallel training data}, 
