@@ -10,7 +10,7 @@ Code coming soon.
 
 3. [BART Model](https://huggingface.co/models) (via [Transformers](https://huggingface.co/transformers/))
 
-**Note:** Note: we noticed that Hugging Face updated the configuration file, activation_dropout and attention_dropout in the previous version we used for the experiment were 0.0. To reproduce the experiment in the paper, you should change this setting.
+**Note:** we noticed that Hugging Face updated the configuration file, activation_dropout and attention_dropout in the previous version we used for the experiment were 0.0. To reproduce the experiment in the paper, you should change this setting.
 
 
 ## Dependencies
