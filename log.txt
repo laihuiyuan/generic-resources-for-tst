@@ -1,0 +1,180 @@
+[Info] Namespace(batch_size=32, dataset='fr', eval_step=500, log_step=100, lr=1e-05, max_len=20, model='bart', order='0', patience=3, seed=42, shuffle=True, steps=3001, style=0)
+[Info] 51967 instances from train set
+[Info] 5035 instances from valid set
+[Info] steps 00100 | loss_rec 2.4537 | loss_cls 1.7146 | loss_bl0 0.1439 | loss_bl1 0.0000 | lr 0.000010 | second 103.96
+[Info] steps 00200 | loss_rec 2.1892 | loss_cls 1.6078 | loss_bl0 0.1742 | loss_bl1 0.0000 | lr 0.000010 | second 103.92
+[Info] steps 00300 | loss_rec 1.9631 | loss_cls 1.5437 | loss_bl0 0.1933 | loss_bl1 0.0000 | lr 0.000010 | second 103.30
+[Info] steps 00400 | loss_rec 1.7811 | loss_cls 1.4096 | loss_bl0 0.2179 | loss_bl1 0.0000 | lr 0.000010 | second 102.44
+[Info] steps 00500 | loss_rec 1.6385 | loss_cls 1.2708 | loss_bl0 0.2364 | loss_bl1 0.0000 | lr 0.000010 | second 101.40
+[Info] valid 00500 | loss_cen 2.0133
+[Info] The checkpoint file has been updated.
+[Info] steps 00600 | loss_rec 1.5677 | loss_cls 1.1896 | loss_bl0 0.2512 | loss_bl1 0.0000 | lr 0.000010 | second 129.90
+[Info] steps 00700 | loss_rec 1.4653 | loss_cls 1.1310 | loss_bl0 0.2525 | loss_bl1 0.0000 | lr 0.000010 | second 102.49
+[Info] steps 00800 | loss_rec 1.5155 | loss_cls 1.1295 | loss_bl0 0.2531 | loss_bl1 0.0000 | lr 0.000010 | second 104.41
+[Info] steps 00900 | loss_rec 1.4483 | loss_cls 1.1453 | loss_bl0 0.2625 | loss_bl1 0.0000 | lr 0.000010 | second 102.44
+[Info] steps 01000 | loss_rec 1.3790 | loss_cls 1.0922 | loss_bl0 0.2662 | loss_bl1 0.0000 | lr 0.000010 | second 101.34
+[Info] valid 01000 | loss_cen 2.1812
+[Info] steps 01100 | loss_rec 1.3885 | loss_cls 1.1105 | loss_bl0 0.2688 | loss_bl1 0.0000 | lr 0.000010 | second 118.55
+[Info] steps 01200 | loss_rec 1.4222 | loss_cls 1.1609 | loss_bl0 0.2609 | loss_bl1 0.0000 | lr 0.000010 | second 102.43
+[Info] steps 01300 | loss_rec 1.4104 | loss_cls 1.1374 | loss_bl0 0.2713 | loss_bl1 0.0000 | lr 0.000010 | second 103.19
+[Info] steps 01400 | loss_rec 1.3305 | loss_cls 1.0821 | loss_bl0 0.2714 | loss_bl1 0.0000 | lr 0.000010 | second 103.97
+[Info] steps 01500 | loss_rec 1.3534 | loss_cls 1.1210 | loss_bl0 0.2739 | loss_bl1 0.0000 | lr 0.000010 | second 101.09
+[Info] valid 01500 | loss_cen 2.2914
+[Info] steps 01600 | loss_rec 1.3247 | loss_cls 1.1613 | loss_bl0 0.2788 | loss_bl1 0.0000 | lr 0.000010 | second 118.88
+[Info] steps 01700 | loss_rec 1.1902 | loss_cls 1.0302 | loss_bl0 0.2812 | loss_bl1 0.0000 | lr 0.000009 | second 102.67
+[Info] steps 01800 | loss_rec 1.2272 | loss_cls 1.0415 | loss_bl0 0.2870 | loss_bl1 0.0000 | lr 0.000009 | second 103.72
+[Info] steps 01900 | loss_rec 1.2402 | loss_cls 1.0563 | loss_bl0 0.2786 | loss_bl1 0.0000 | lr 0.000009 | second 102.57
+[Info] steps 02000 | loss_rec 1.2448 | loss_cls 1.1062 | loss_bl0 0.2865 | loss_bl1 0.0000 | lr 0.000009 | second 101.21
+[Info] valid 02000 | loss_cen 2.4806
+[Info] 1019 instances from src test set
+[Info] 1332 instances from tgt test set
+[Info] Test: acc 92.4713% | loss 0.1950
+ERROR: could not find reference file data/ye/original_ref/formal.ref at utils/multi-bleu.perl line 32.
+ERROR: could not find reference file data/ye/original_ref/informal.ref at utils/multi-bleu.perl line 32.
+p300838@haytabo:~/projects/Generic-resources-for-TST$ sh pg_0.sh 
+BLEU = 71.99, 90.4/78.3/67.2/56.5 (BP=1.000, ratio=1.011, hyp_len=17422, ref_len=17225)
+BLEU = 36.50, 75.5/46.8/29.1/17.2 (BP=1.000, ratio=1.049, hyp_len=12196, ref_len=11623)
+[Info] Namespace(batch_size=32, dataset='ye', eval_step=500, log_step=100, lr=1e-05, max_len=16, model='bart', order='0', patience=3, seed=42, shuffle=True, steps=3001, style=0)
+[Info] 131797 instances from train set
+[Info] 1000 instances from valid set
+[Info] steps 00100 | loss_rec 0.5526 | loss_cls 0.1489 | loss_bl0 0.1257 | loss_bl1 0.0000 | lr 0.000010 | second 82.58
+[Info] steps 00200 | loss_rec 0.8771 | loss_cls 0.4767 | loss_bl0 0.2684 | loss_bl1 0.0000 | lr 0.000010 | second 82.61
+[Info] steps 00300 | loss_rec 0.9133 | loss_cls 0.5676 | loss_bl0 0.2848 | loss_bl1 0.0000 | lr 0.000010 | second 82.50
+[Info] steps 00400 | loss_rec 0.9692 | loss_cls 0.6378 | loss_bl0 0.2879 | loss_bl1 0.0000 | lr 0.000010 | second 82.45
+[Info] steps 00500 | loss_rec 1.0375 | loss_cls 0.7088 | loss_bl0 0.2989 | loss_bl1 0.0000 | lr 0.000010 | second 81.26
+[Info] valid 00500 | loss_cen 2.2351
+[Info] The checkpoint file has been updated.
+[Info] steps 00600 | loss_rec 1.0350 | loss_cls 0.7335 | loss_bl0 0.2801 | loss_bl1 0.0000 | lr 0.000010 | second 202.41
+[Info] steps 00700 | loss_rec 1.0501 | loss_cls 0.7299 | loss_bl0 0.2877 | loss_bl1 0.0000 | lr 0.000010 | second 82.25
+[Info] steps 00800 | loss_rec 1.1563 | loss_cls 0.8209 | loss_bl0 0.2902 | loss_bl1 0.0000 | lr 0.000010 | second 82.34
+[Info] steps 00900 | loss_rec 1.1303 | loss_cls 0.8037 | loss_bl0 0.2862 | loss_bl1 0.0000 | lr 0.000010 | second 82.26
+[Info] steps 01000 | loss_rec 1.2189 | loss_cls 0.8816 | loss_bl0 0.2835 | loss_bl1 0.0000 | lr 0.000010 | second 80.96
+[Info] valid 01000 | loss_cen 2.1911
+[Info] The checkpoint file has been updated.
+[Info] steps 01100 | loss_rec 1.2233 | loss_cls 0.8774 | loss_bl0 0.2851 | loss_bl1 0.0000 | lr 0.000010 | second 209.11
+[Info] steps 01200 | loss_rec 1.2837 | loss_cls 0.9221 | loss_bl0 0.2819 | loss_bl1 0.0000 | lr 0.000010 | second 82.98
+[Info] steps 01300 | loss_rec 1.4199 | loss_cls 1.0193 | loss_bl0 0.2653 | loss_bl1 0.0000 | lr 0.000010 | second 82.64
+[Info] steps 01400 | loss_rec 1.3558 | loss_cls 0.9780 | loss_bl0 0.2713 | loss_bl1 0.0000 | lr 0.000010 | second 82.13
+[Info] steps 01500 | loss_rec 1.4594 | loss_cls 1.0741 | loss_bl0 0.2585 | loss_bl1 0.0000 | lr 0.000010 | second 81.15
+[Info] valid 01500 | loss_cen 2.1774
+[Info] The checkpoint file has been updated.
+[Info] steps 01600 | loss_rec 1.4547 | loss_cls 1.0831 | loss_bl0 0.2567 | loss_bl1 0.0000 | lr 0.000010 | second 96.53
+[Info] steps 01700 | loss_rec 1.5088 | loss_cls 1.1124 | loss_bl0 0.2548 | loss_bl1 0.0000 | lr 0.000010 | second 82.08
+[Info] steps 01800 | loss_rec 1.4568 | loss_cls 1.0905 | loss_bl0 0.2547 | loss_bl1 0.0000 | lr 0.000010 | second 82.33
+[Info] steps 01900 | loss_rec 1.7288 | loss_cls 1.2818 | loss_bl0 0.2273 | loss_bl1 0.0000 | lr 0.000010 | second 82.27
+[Info] steps 02000 | loss_rec 1.7724 | loss_cls 1.2415 | loss_bl0 0.2213 | loss_bl1 0.0000 | lr 0.000010 | second 80.94
+[Info] valid 02000 | loss_cen 2.2818
+[Info] steps 02100 | loss_rec 1.8582 | loss_cls 1.2808 | loss_bl0 0.2126 | loss_bl1 0.0000 | lr 0.000010 | second 85.23
+[Info] steps 02200 | loss_rec 1.6845 | loss_cls 1.1753 | loss_bl0 0.2313 | loss_bl1 0.0000 | lr 0.000010 | second 82.19
+[Info] steps 02300 | loss_rec 1.6994 | loss_cls 1.2070 | loss_bl0 0.2253 | loss_bl1 0.0000 | lr 0.000010 | second 82.18
+[Info] steps 02400 | loss_rec 1.7723 | loss_cls 1.3982 | loss_bl0 0.2231 | loss_bl1 0.0000 | lr 0.000010 | second 81.96
+[Info] steps 02500 | loss_rec 1.7261 | loss_cls 1.5214 | loss_bl0 0.2279 | loss_bl1 0.0000 | lr 0.000010 | second 80.90
+[Info] valid 02500 | loss_cen 2.4163
+[Info] steps 02600 | loss_rec 1.8498 | loss_cls 1.5727 | loss_bl0 0.2128 | loss_bl1 0.0000 | lr 0.000010 | second 85.08
+[Info] steps 02700 | loss_rec 1.8804 | loss_cls 1.5192 | loss_bl0 0.2081 | loss_bl1 0.0000 | lr 0.000010 | second 82.30
+[Info] steps 02800 | loss_rec 1.9517 | loss_cls 1.7781 | loss_bl0 0.1969 | loss_bl1 0.0000 | lr 0.000010 | second 82.30
+[Info] steps 02900 | loss_rec 2.1156 | loss_cls 1.7122 | loss_bl0 0.1804 | loss_bl1 0.0000 | lr 0.000010 | second 82.46
+[Info] steps 03000 | loss_rec 2.0762 | loss_cls 1.4452 | loss_bl0 0.1933 | loss_bl1 0.0000 | lr 0.000010 | second 80.94
+[Info] valid 03000 | loss_cen 2.4430
+[Info] 500 instances from src test set
+[Info] 500 instances from tgt test set
+[Info] Test: acc 88.2000% | loss 0.6734
+BLEU = 29.46, 52.2/34.4/24.2/17.4 (BP=1.000, ratio=1.064, hyp_len=5070, ref_len=4763)
+BLEU = 29.58, 53.8/34.2/24.0/17.3 (BP=1.000, ratio=1.094, hyp_len=5105, ref_len=4666)
+
+p300838@haytabo:~/projects/Generic-resources-for-TST$ sh pg_0.sh 
+[Info] Namespace(batch_size=32, dataset='ye', eval_step=500, log_step=100, lr=1e-05, max_len=16, model='bart', order='0', patience=3, seed=42, shuffle=True, steps=3001, style=0)
+[Info] 131797 instances from train set
+[Info] 1000 instances from valid set
+[Info] steps 00100 | loss_rec 0.3169 | loss_cls -0.0968 | loss_bl0 0.1249 | loss_bl1 0.0000 | lr 0.000010 | second 83.81
+[Info] steps 00200 | loss_rec 0.1161 | loss_cls -0.0434 | loss_bl0 0.0596 | loss_bl1 0.0000 | lr 0.000010 | second 82.88
+[Info] steps 00300 | loss_rec 0.2262 | loss_cls -0.0205 | loss_bl0 0.1254 | loss_bl1 0.0000 | lr 0.000010 | second 83.74
+[Info] steps 00400 | loss_rec 0.5904 | loss_cls 0.3059 | loss_bl0 0.2610 | loss_bl1 0.0000 | lr 0.000010 | second 83.40
+[Info] steps 00500 | loss_rec 0.7615 | loss_cls 0.4504 | loss_bl0 0.2872 | loss_bl1 0.0000 | lr 0.000010 | second 81.13
+[Info] valid 00500 | loss_cen 2.2947
+[Info] The checkpoint file has been updated.
+[Info] steps 00600 | loss_rec 0.8312 | loss_cls 0.4924 | loss_bl0 0.2758 | loss_bl1 0.0000 | lr 0.000010 | second 96.14
+[Info] steps 00700 | loss_rec 0.9528 | loss_cls 0.5997 | loss_bl0 0.2968 | loss_bl1 0.0000 | lr 0.000010 | second 82.99
+[Info] steps 00800 | loss_rec 1.0493 | loss_cls 0.7378 | loss_bl0 0.3020 | loss_bl1 0.0000 | lr 0.000010 | second 84.66
+[Info] steps 00900 | loss_rec 1.0642 | loss_cls 0.7461 | loss_bl0 0.2904 | loss_bl1 0.0000 | lr 0.000010 | second 83.50
+[Info] steps 01000 | loss_rec 1.1548 | loss_cls 0.8814 | loss_bl0 0.2991 | loss_bl1 0.0000 | lr 0.000010 | second 81.17
+[Info] valid 01000 | loss_cen 2.1673
+[Info] The checkpoint file has been updated.
+[Info] steps 01100 | loss_rec 1.0839 | loss_cls 0.7627 | loss_bl0 0.2845 | loss_bl1 0.0000 | lr 0.000010 | second 173.89
+[Info] steps 01200 | loss_rec 1.1154 | loss_cls 0.7866 | loss_bl0 0.2944 | loss_bl1 0.0000 | lr 0.000010 | second 82.75
+[Info] steps 01300 | loss_rec 1.2600 | loss_cls 0.9136 | loss_bl0 0.2782 | loss_bl1 0.0000 | lr 0.000010 | second 82.81
+[Info] steps 01400 | loss_rec 1.2276 | loss_cls 0.9046 | loss_bl0 0.2805 | loss_bl1 0.0000 | lr 0.000010 | second 86.14
+[Info] steps 01500 | loss_rec 1.3689 | loss_cls 1.0133 | loss_bl0 0.2671 | loss_bl1 0.0000 | lr 0.000010 | second 82.00
+[Info] valid 01500 | loss_cen 2.1125
+[Info] The checkpoint file has been updated.
+[Info] steps 01600 | loss_rec 1.2767 | loss_cls 0.9443 | loss_bl0 0.2748 | loss_bl1 0.0000 | lr 0.000010 | second 213.02
+[Info] steps 01700 | loss_rec 1.3483 | loss_cls 1.0189 | loss_bl0 0.2712 | loss_bl1 0.0000 | lr 0.000010 | second 82.87
+[Info] steps 01800 | loss_rec 1.2929 | loss_cls 0.9830 | loss_bl0 0.2775 | loss_bl1 0.0000 | lr 0.000010 | second 82.89
+[Info] steps 01900 | loss_rec 1.5005 | loss_cls 1.1254 | loss_bl0 0.2559 | loss_bl1 0.0000 | lr 0.000010 | second 85.58
+[Info] steps 02000 | loss_rec 1.5262 | loss_cls 1.1132 | loss_bl0 0.2450 | loss_bl1 0.0000 | lr 0.000010 | second 83.23
+[Info] valid 02000 | loss_cen 2.1945
+[Info] steps 02100 | loss_rec 1.5501 | loss_cls 1.1392 | loss_bl0 0.2433 | loss_bl1 0.0000 | lr 0.000010 | second 87.55
+[Info] steps 02200 | loss_rec 1.5970 | loss_cls 1.1206 | loss_bl0 0.2326 | loss_bl1 0.0000 | lr 0.000010 | second 84.21
+[Info] steps 02300 | loss_rec 1.7086 | loss_cls 1.1911 | loss_bl0 0.2211 | loss_bl1 0.0000 | lr 0.000010 | second 81.71
+[Info] steps 02400 | loss_rec 1.7077 | loss_cls 1.2990 | loss_bl0 0.2254 | loss_bl1 0.0000 | lr 0.000010 | second 83.27
+[Info] steps 02500 | loss_rec 1.6645 | loss_cls 1.2880 | loss_bl0 0.2323 | loss_bl1 0.0000 | lr 0.000010 | second 82.05
+[Info] valid 02500 | loss_cen 2.2999
+[Info] steps 02600 | loss_rec 1.5874 | loss_cls 1.2047 | loss_bl0 0.2349 | loss_bl1 0.0000 | lr 0.000010 | second 84.43
+[Info] steps 02700 | loss_rec 1.5974 | loss_cls 1.2328 | loss_bl0 0.2349 | loss_bl1 0.0000 | lr 0.000010 | second 82.00
+[Info] steps 02800 | loss_rec 1.6774 | loss_cls 1.3552 | loss_bl0 0.2258 | loss_bl1 0.0000 | lr 0.000010 | second 83.05
+[Info] steps 02900 | loss_rec 1.5627 | loss_cls 1.2844 | loss_bl0 0.2404 | loss_bl1 0.0000 | lr 0.000010 | second 81.92
+[Info] steps 03000 | loss_rec 1.5314 | loss_cls 1.2321 | loss_bl0 0.2408 | loss_bl1 0.0000 | lr 0.000010 | second 81.34
+[Info] valid 03000 | loss_cen 2.3238
+[Info] 500 instances from src test set
+[Info] 500 instances from tgt test set
+[Info] Test: acc 85.5000% | loss 0.7852
+BLEU = 29.52, 52.6/34.2/24.3/17.4 (BP=1.000, ratio=1.044, hyp_len=4971, ref_len=4763)
+BLEU = 28.90, 52.9/33.5/23.5/16.7 (BP=1.000, ratio=1.097, hyp_len=5119, ref_len=4666)
+[Info] Namespace(batch_size=32, dataset='fr', eval_step=500, log_step=100, lr=1e-05, max_len=16, model='bart', order='0', patience=3, seed=42, shuffle=True, steps=3001, style=0)
+[Info] 51967 instances from train set
+[Info] 5035 instances from valid set
+[Info] steps 00100 | loss_rec 1.0961 | loss_cls 0.1379 | loss_bl0 0.3706 | loss_bl1 0.0000 | lr 0.000010 | second 92.21
+[Info] steps 00200 | loss_rec 0.7639 | loss_cls 0.2297 | loss_bl0 0.3324 | loss_bl1 0.0000 | lr 0.000010 | second 93.54
+[Info] steps 00300 | loss_rec 0.9740 | loss_cls 0.5217 | loss_bl0 0.3615 | loss_bl1 0.0000 | lr 0.000010 | second 92.64
+[Info] steps 00400 | loss_rec 1.0319 | loss_cls 0.5914 | loss_bl0 0.3469 | loss_bl1 0.0000 | lr 0.000010 | second 91.99
+[Info] steps 00500 | loss_rec 1.1009 | loss_cls 0.6198 | loss_bl0 0.3355 | loss_bl1 0.0000 | lr 0.000010 | second 95.85
+[Info] valid 00500 | loss_cen 2.4772
+[Info] The checkpoint file has been updated.
+[Info] steps 00600 | loss_rec 1.1247 | loss_cls 0.6606 | loss_bl0 0.3218 | loss_bl1 0.0000 | lr 0.000010 | second 122.62
+[Info] steps 00700 | loss_rec 1.0250 | loss_cls 0.6597 | loss_bl0 0.3334 | loss_bl1 0.0000 | lr 0.000010 | second 93.18
+[Info] steps 00800 | loss_rec 1.1448 | loss_cls 0.7777 | loss_bl0 0.3292 | loss_bl1 0.0000 | lr 0.000010 | second 94.49
+[Info] steps 00900 | loss_rec 1.1046 | loss_cls 0.7607 | loss_bl0 0.3278 | loss_bl1 0.0000 | lr 0.000010 | second 91.39
+[Info] steps 01000 | loss_rec 1.0812 | loss_cls 0.6983 | loss_bl0 0.3160 | loss_bl1 0.0000 | lr 0.000010 | second 90.82
+[Info] valid 01000 | loss_cen 2.5350
+[Info] steps 01100 | loss_rec 1.0646 | loss_cls 0.7112 | loss_bl0 0.3287 | loss_bl1 0.0000 | lr 0.000010 | second 112.93
+[Info] steps 01200 | loss_rec 1.0851 | loss_cls 0.7295 | loss_bl0 0.3241 | loss_bl1 0.0000 | lr 0.000010 | second 96.90
+[Info] steps 01300 | loss_rec 1.2372 | loss_cls 0.9270 | loss_bl0 0.3388 | loss_bl1 0.0000 | lr 0.000010 | second 98.28
+[Info] steps 01400 | loss_rec 1.1651 | loss_cls 0.8624 | loss_bl0 0.3289 | loss_bl1 0.0000 | lr 0.000010 | second 95.99
+[Info] steps 01500 | loss_rec 1.2531 | loss_cls 0.8943 | loss_bl0 0.3313 | loss_bl1 0.0000 | lr 0.000010 | second 91.58
+[Info] valid 01500 | loss_cen 2.4681
+[Info] The checkpoint file has been updated.
+[Info] steps 01600 | loss_rec 1.2215 | loss_cls 0.8767 | loss_bl0 0.3179 | loss_bl1 0.0000 | lr 0.000010 | second 123.14
+[Info] steps 01700 | loss_rec 1.2149 | loss_cls 0.9531 | loss_bl0 0.3265 | loss_bl1 0.0000 | lr 0.000009 | second 97.97
+[Info] steps 01800 | loss_rec 1.2860 | loss_cls 1.0600 | loss_bl0 0.3202 | loss_bl1 0.0000 | lr 0.000009 | second 96.89
+[Info] steps 01900 | loss_rec 1.2831 | loss_cls 0.9874 | loss_bl0 0.3266 | loss_bl1 0.0000 | lr 0.000009 | second 94.56
+[Info] steps 02000 | loss_rec 1.1662 | loss_cls 0.8712 | loss_bl0 0.3156 | loss_bl1 0.0000 | lr 0.000009 | second 95.07
+[Info] valid 02000 | loss_cen 2.4444
+[Info] The checkpoint file has been updated.
+[Info] steps 02100 | loss_rec 1.2246 | loss_cls 0.9826 | loss_bl0 0.3124 | loss_bl1 0.0000 | lr 0.000009 | second 121.06
+[Info] steps 02200 | loss_rec 1.3051 | loss_cls 1.0586 | loss_bl0 0.3084 | loss_bl1 0.0000 | lr 0.000009 | second 94.47
+[Info] steps 02300 | loss_rec 1.2309 | loss_cls 1.0018 | loss_bl0 0.3207 | loss_bl1 0.0000 | lr 0.000009 | second 92.55
+[Info] steps 02400 | loss_rec 1.1586 | loss_cls 0.9644 | loss_bl0 0.3099 | loss_bl1 0.0000 | lr 0.000009 | second 92.38
+[Info] steps 02500 | loss_rec 1.1222 | loss_cls 0.8717 | loss_bl0 0.3159 | loss_bl1 0.0000 | lr 0.000009 | second 92.38
+[Info] valid 02500 | loss_cen 2.5076
+[Info] steps 02600 | loss_rec 1.2083 | loss_cls 0.8871 | loss_bl0 0.3040 | loss_bl1 0.0000 | lr 0.000009 | second 111.75
+[Info] steps 02700 | loss_rec 1.2258 | loss_cls 0.9234 | loss_bl0 0.2997 | loss_bl1 0.0000 | lr 0.000009 | second 94.91
+[Info] steps 02800 | loss_rec 1.2776 | loss_cls 0.9721 | loss_bl0 0.3080 | loss_bl1 0.0000 | lr 0.000009 | second 94.75
+[Info] steps 02900 | loss_rec 1.3569 | loss_cls 0.9757 | loss_bl0 0.2980 | loss_bl1 0.0000 | lr 0.000009 | second 94.66
+[Info] steps 03000 | loss_rec 1.4139 | loss_cls 1.0146 | loss_bl0 0.2956 | loss_bl1 0.0000 | lr 0.000009 | second 93.71
+[Info] valid 03000 | loss_cen 2.3757
+[Info] The checkpoint file has been updated.
+[Info] 1019 instances from src test set
+[Info] 1332 instances from tgt test set
+[Info] Test: acc 93.3645% | loss 0.1370
+BLEU = 68.46, 88.7/75.4/63.3/51.9 (BP=1.000, ratio=1.007, hyp_len=17158, ref_len=17042)
+BLEU = 29.89, 67.2/40.1/23.3/12.7 (BP=1.000, ratio=1.049, hyp_len=12414, ref_len=11834)
