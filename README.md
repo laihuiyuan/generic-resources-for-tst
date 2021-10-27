@@ -1,7 +1,6 @@
 
 # [Generic resources are what you need: Style transfer tasks without task-specific parallel training data (EMNLP 2021)](https://arxiv.org/pdf/2109.04543.pdf)
 
-Code coming soon.
 
 ## Generic Resources
 1. [PARABANK-2](http://decomp.io/projects/parabank2/)

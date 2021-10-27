@@ -32,7 +32,7 @@ def cal_comet(file_can, file_ref, num, model):
 
     for i in range(int(num)):
         refs = []
-        with open(file1+str(i),'r') as fin:
+        with open(file_ref+str(i),'r') as fin:
             for line in fin.readlines():
                 refs.append(line.strip())
 
