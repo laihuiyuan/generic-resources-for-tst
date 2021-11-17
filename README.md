@@ -97,13 +97,17 @@ The outputs of our best systems are provided in outputs.
 ## Cite
 Please cite our EMNLP paper:
 ```
-@article{lai2021generic,
-    title={Generic resources are what you need: Style transfer tasks without task-specific parallel training data}, 
-    author={Huiyuan Lai and Antonio Toral and Malvina Nissim},
-    year={2021}, 
-    archivePrefix = {arXiv},
-    eprint={2109.04543},
-    primaryClass  = {cs.CL},
-    journal   = {arXiv preprint, arXiv: 2109.04543}
+@inproceedings{lai-etal-2021-generic,
+    title = "Generic resources are what you need: Style transfer tasks without task-specific parallel training data",
+    author = "Lai, Huiyuan  and
+      Toral, Antonio  and
+      Nissim, Malvina",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.349",
+    pages = "4241--4254",
 }
 ```
