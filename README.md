@@ -3,7 +3,7 @@
 
 
 ## Generic Resources
-1. [PARABANK-2](The new link is http://cs.jhu.edu/~vandurme/data/parabank-2.0.zip)
+1. [PARABANK-2](http://cs.jhu.edu/~vandurme/data/parabank-2.0.zip)
 
 2. [WordNet & SentiWordNet](https://www.nltk.org/) (via [NLTK](https://www/nltk/org/))
 
